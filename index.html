@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+    <title>Quiz Board</title>
+</head>
+
+<body>
+    <section>
+        <div class="container" id="test">
+            <h1 class="text-center">Quiz Board</h1>
+            <ol>
+                <li>Which of the following is not JavaScript Data Types?</li>
+                <input type="radio" name="questions1" value='wrong'>Undefined<br>
+                <input type="radio" name="questions1" value='wrong'>Number<br>
+                <input type="radio" name="questions1" value='wrong'>Boolean<br>
+                <input type="radio" name="questions1" value='correct'>Float<br>
+
+                <li>Which company developed JavaScript?</li>
+                <input type="radio" name="questions2" value='correct'>Netscape<br>
+                <input type="radio" name="questions2" value='wrong'>Bell Labs<br>
+                <input type="radio" name="questions2" value='wrong'>Sun Microsystems<br>
+                <input type="radio" name="questions2" value='wrong'>IBM<br>
+
+                <li>Inside which HTML element do we put the JavaScript?</li>
+                <input type="radio" name="questions3" value='correct'>script<br>
+                <input type="radio" name="questions3" value='wrong'>head<br>
+                <input type="radio" name="questions3" value='wrong'>meta<br>
+                <input type="radio" name="questions3" value='wrong'>style<br>
+
+                <li>Which of the following is correct about features of JavaScript?</li>
+                <input type="radio" name="questions4" value='wrong'>It can not Handling dates and time.<br>
+                <input type="radio" name="questions4" value='correct'>JavaScript is a object-based scripting
+                language.<br>
+                <input type="radio" name="questions4" value='wrong'>JavaScript is not interpreter based scripting
+                language.<br>
+                <input type="radio" name="questions4" value='wrong'>All of the above.<br>
+
+                <li> Which of the following is the correct syntax to display "Letsfindcourse" in an alert box using
+                    JavaScript?</li>
+                <input type="radio" name="questions5" value='wrong'>alert-box("Letsfindcourse");<br>
+                <input type="radio" name="questions5" value='wrong'>confirm("Letsfindcourse");<br>
+                <input type="radio" name="questions5" value='wrong'>msgbox("Letsfindcourse");<br>
+                <input type="radio" name="questions5" value='correct'>alert("Letsfindcourse");<br>
+            </ol>
+            <div class="form-group text-center">
+                <input type="submit" id="submit" class="btn btn-sm" value="Submit">
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container text-center" id="score-shows">
+            <h3 class="text">Congratulations on completing the course!</h3>
+            <p class="text">Your score is: <span class="score"></span></p>
+            <br>
+        </div>
+    </section>
+
+</body>
+
+</html>

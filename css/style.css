@@ -1,0 +1,28 @@
+li {
+    padding: 5px;
+    font-weight: bold;
+}
+.container {
+    background-color:peachpuff;
+    box-shadow: 0vh 0vh 50vh rgb(150, 78, 78);
+    padding: 3%;
+    margin: 0 auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 14pt;
+}
+.btn{
+    padding:1%;
+    font-size:large;
+    padding-left:3%;
+    padding-right: 3%;
+    background-color: brown;
+    color: white;
+}
+
+#score-shows{
+    display:none;
+}
+p.text{
+    font-size:x-large;
+}
